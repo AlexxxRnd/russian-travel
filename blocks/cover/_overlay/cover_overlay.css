@@ -1,0 +1,4 @@
+.cover_overlay:hover:before {
+    opacity: 0.8;
+    /*transition: .2s;*/
+}

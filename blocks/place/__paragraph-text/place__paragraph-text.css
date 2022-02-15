@@ -2,7 +2,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 26px;
+    line-height: 29px;
     color: #FFFFFF;
     margin: 0;
 }
@@ -12,10 +12,6 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .place__paragraph-text {
-        line-height: 29px;
-        font-weight: 400;
-    }
     .place__paragraph-text:nth-child(2) {
         margin-top: 27px;
     }
@@ -25,7 +21,6 @@
     .place__paragraph-text {
         font-size: 16px;
         line-height: 26px;
-        font-weight: 400;
     }
 
     .place__paragraph-text:nth-child(2) {
@@ -37,7 +32,6 @@
     .place__paragraph-text {
         font-size: 16px;
         line-height: 26px;
-        font-weight: 400;
     }
 
     .place__paragraph-text:nth-child(2) {

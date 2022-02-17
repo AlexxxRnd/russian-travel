@@ -5,9 +5,10 @@
     line-height: 58px;
     color: #FFFFFF;
     margin: 0 auto 40px;
+    max-width: 690px;
 }
 
-@media screen and (max-width: 1280px) {
+/*@media screen and (max-width: 1280px) {
     .intro__title {
        max-width: 690px;
     }
@@ -17,18 +18,18 @@
     .intro__title {
        max-width: 690px;
     }
-}
+}*/
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .intro__title {
         max-width: 720px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 367px) {
     .intro__title {
         font-size: 32px;
         line-height: 35px;
-        max-width: 288px;
+        min-width: 288px;
     }
 }

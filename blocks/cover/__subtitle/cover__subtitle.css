@@ -15,9 +15,6 @@
     .cover__subtitle {
         font-size: 22px;
         line-height: 18px;
-        padding-top: 32px;
-        margin: 0 auto;
-        max-width: 360px;
     }
 }
 
@@ -26,7 +23,6 @@
         font-size: 16px;
         line-height: 14px;
         padding-top: 16px;
-        margin: 0 auto;
         min-width: 288px;
     }
 }

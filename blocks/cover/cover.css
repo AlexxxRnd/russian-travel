@@ -9,7 +9,7 @@
     margin: 92px auto 0;
 }
 
-.cover:before {
+.cover::before {
     content: '';
     display: block;
     position: absolute;
@@ -22,7 +22,7 @@
     transition: opacity 0.4s ease;
 }
 
-.cover:hover:before {
+.cover:hover::before {
     opacity: 0.8;
     /*transition: .2s;*/
 }
